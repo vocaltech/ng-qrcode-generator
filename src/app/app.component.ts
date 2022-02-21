@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { User } from './users/user.interface';
+import { IUser } from './users/user.interface';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent {
   qrData: string;
   username: string;
 
-  private users: User[] = [
+  private users: IUser[] = [
     {
       username: 'John Doe',
       login: 'vocaltech',
